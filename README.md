@@ -4,7 +4,7 @@
 
 This project consists of two Python scripts: `BlogPublisher`, a graphical user interface application for generating and publishing blog articles, and an auxiliary script that provides functionalities such as content generation, article updating, and publishing automation utilizing the OpenAI API.
 
-![Interface](interface.jpg)
+![Interface](interface.png)
 
 
 ## Prerequisites
