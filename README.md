@@ -38,6 +38,7 @@ Execute the script by running:
 
 ```bash
 python main.py
+```
 
 ## Contributing
 
