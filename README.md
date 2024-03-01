@@ -4,6 +4,9 @@
 
 This project consists of two Python scripts: `BlogPublisher`, a graphical user interface application for generating and publishing blog articles, and an auxiliary script that provides functionalities such as content generation, article updating, and publishing automation utilizing the OpenAI API.
 
+![Interface](interface.jpg)
+
+
 ## Prerequisites
 
 Ensure you have the following prerequisites installed on your system:
@@ -35,4 +38,17 @@ Execute the script by running:
 
 ```bash
 python main.py
+
+## Contributing
+
+Contributions are welcome. You can contribute by reporting bugs, suggesting enhancements, or submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Thanks to CustomTkinter for the GUI framework.
+- Thanks to OpenAI for the API used in content generation.
 
