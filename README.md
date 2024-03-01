@@ -30,9 +30,9 @@ Additionally, you must have an OpenAI API key to use the content generation feat
 
 ## Usage
 
-### BlogPublisher Script
+### Main Script
 
-The `BlogPublisher` script provides a user-friendly interface for configuring and managing your blog's content. Features include setting up blog directory and type, configuring article parameters, and directly publishing articles.
+The script provides a user-friendly interface for configuring and managing your blog's content. Features include setting up blog directory and type, configuring article parameters, and directly publishing articles.
 
 Execute the script by running:
 
