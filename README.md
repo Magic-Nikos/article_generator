@@ -1,69 +1,38 @@
 # Article Generator
 
-Interface to generate, publish and deploy article for your Hexo or Jekyll blog
-Overview
+## Overview
 
-This suite includes two main Python scripts: BlogPublisher, a GUI application for managing and publishing blog articles, and an auxiliary script for content generation and manipulation. The BlogPublisher script utilizes a dark-themed interface provided by CustomTkinter for setting up and generating blog content, while the auxiliary script offers backend support including content generation through OpenAI's API, article updating, and deployment.
-Prerequisites
+This project consists of two Python scripts: `BlogPublisher`, a graphical user interface application for generating and publishing blog articles, and an auxiliary script that provides functionalities such as content generation, article updating, and publishing automation utilizing the OpenAI API.
 
-Before using these scripts, ensure you have the following installed:
+## Prerequisites
 
-    Python 3.x: The programming language used for both scripts.
-    CustomTkinter: A library providing custom widgets for a better GUI experience in BlogPublisher.
-    Requests: A library used for making API calls in the auxiliary script.
-    PyYAML: A library used for YAML operations within the auxiliary script.
+Ensure you have the following prerequisites installed on your system:
 
-Additionally, you'll need an OpenAI API key for the content generation features.
-Installation
+- Python 3.x
+- CustomTkinter
+- Requests
+- PyYAML
 
-    Install Python Dependencies: Run the following command to install the necessary Python libraries:
+Additionally, you must have an OpenAI API key to use the content generation features.
 
-    bash
+## Installation
 
+1. Install the required Python libraries by running the following command:
+
+    ```bash
     pip install customtkinter requests pyyaml
+    ```
 
-    API Key Configuration: Insert your OpenAI API key into the API_KEY variable in the auxiliary script.
+2. Place your OpenAI API key in the auxiliary script, replacing the `API_KEY` variable's value.
 
-Usage
-BlogPublisher Script
+## Usage
 
-The BlogPublisher application is a graphical interface for setting up and managing your blog's content. Features include:
+### BlogPublisher Script
 
-    Setting the blog directory and type (Hexo or Jekyll).
-    Configuring categories, tags, and the number of articles.
-    Generating article subjects and full articles.
-    Publishing articles directly from the GUI.
+The `BlogPublisher` script provides a user-friendly interface for configuring and managing your blog's content. Features include setting up blog directory and type, configuring article parameters, and directly publishing articles.
 
-To run the application, navigate to the script's directory in your terminal and execute:
+Execute the script by running:
 
-bash
+```bash
+python main.py
 
-python BlogPublisher.py
-
-Auxiliary Script
-
-This script supports the main application and includes functions for:
-
-    Cleaning and formatting titles.
-    Generating content with OpenAI's API.
-    Updating existing articles with new content, tags, and categories.
-    Creating and publishing articles for Hexo or Jekyll blogs.
-
-This script is utilized internally by the BlogPublisher but can also be modified for standalone use.
-Contributing
-
-Contributions to the project are welcome! You can contribute by:
-
-    Reporting bugs
-    Suggesting enhancements
-    Submitting pull requests with new features or bug fixes
-
-License
-
-Specify your project's license here. If you haven't chosen a license yet, you can browse https://choosealicense.com/ to find one that suits your project.
-Acknowledgments
-
-    CustomTkinter for the GUI components.
-    OpenAI for the content generation API.
-
-For any questions or contributions, please open an issue or pull request on the project's repository.
